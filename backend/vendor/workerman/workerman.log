@@ -1,0 +1,47 @@
+2024-04-06 08:29:36 pid:1 Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\zadanie3Samo\backend\wsserver.php:29
+Stack trace:
+#0 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Connection\TcpConnection.php(646): {closure}(Object(Workerman\Connection\TcpConnection), '{"name":"Samo",...')
+#1 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead(Resource id #20)
+#2 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Worker.php(1488): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Worker.php(1405): Workerman\Worker::forkWorkersForWindows()
+#4 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#5 C:\xampp\htdocs\zadanie3Samo\backend\wsserver.php(38): Workerman\Worker::runAll()
+#6 {main}
+2024-04-08 14:16:04 pid:1 Error: Attempt to assign property "color" on null in C:\xampp\htdocs\zadanie3Samo\backend\wsserver.php:39
+Stack trace:
+#0 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Connection\TcpConnection.php(646): {closure}(Object(Workerman\Connection\TcpConnection), '{ timer: 120}')
+#1 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead(Resource id #32)
+#2 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Worker.php(1488): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Worker.php(1405): Workerman\Worker::forkWorkersForWindows()
+#4 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#5 C:\xampp\htdocs\zadanie3Samo\backend\wsserver.php(89): Workerman\Worker::runAll()
+#6 {main}
+2024-04-08 15:41:01 pid:1 Error: Undefined constant "trilLength" in C:\xampp\htdocs\zadanie3Samo\backend\wsserver.php:44
+Stack trace:
+#0 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Connection\TcpConnection.php(646): {closure}(Object(Workerman\Connection\TcpConnection), '{"x":550,"y":37...')
+#1 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead(Resource id #20)
+#2 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Worker.php(1488): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Worker.php(1405): Workerman\Worker::forkWorkersForWindows()
+#4 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#5 C:\xampp\htdocs\zadanie3Samo\backend\wsserver.php(97): Workerman\Worker::runAll()
+#6 {main}
+2024-04-08 15:44:27 pid:1 Error: Undefined constant "trailLength" in C:\xampp\htdocs\zadanie3Samo\backend\wsserver.php:44
+Stack trace:
+#0 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Connection\TcpConnection.php(646): {closure}(Object(Workerman\Connection\TcpConnection), '{"x":450,"y":58...')
+#1 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead(Resource id #20)
+#2 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Worker.php(1488): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Worker.php(1405): Workerman\Worker::forkWorkersForWindows()
+#4 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#5 C:\xampp\htdocs\zadanie3Samo\backend\wsserver.php(101): Workerman\Worker::runAll()
+#6 {main}
+2024-04-08 16:08:13 pid:1 TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\zadanie3Samo\backend\wsserver.php:46
+Stack trace:
+#0 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Connection\TcpConnection.php(646): {closure}(Object(Workerman\Connection\TcpConnection), '{"timer":"60"}')
+#1 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Events\Select.php(311): Workerman\Connection\TcpConnection->baseRead(Resource id #20)
+#2 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Worker.php(1488): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Worker.php(1405): Workerman\Worker::forkWorkersForWindows()
+#4 C:\xampp\htdocs\zadanie3Samo\backend\vendor\workerman\workerman\Worker.php(560): Workerman\Worker::forkWorkers()
+#5 C:\xampp\htdocs\zadanie3Samo\backend\wsserver.php(103): Workerman\Worker::runAll()
+#6 {main}
+2024-04-15 14:49:35 pid:8 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-15 14:51:35 pid:7 Workerman[./wsserver.php] start in DAEMON mode
